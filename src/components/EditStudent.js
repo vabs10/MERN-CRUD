@@ -44,6 +44,7 @@ function EditStudent() {
           rollno: res.data.data.rollno,
         });
       });
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (
