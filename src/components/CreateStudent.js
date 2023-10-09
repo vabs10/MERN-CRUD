@@ -24,12 +24,13 @@ function CreateStudent() {
       .post("http://localhost:4000/students/create-student", userForm)
       .then((res) => {
         console.log(res.data);
-        navigate("/student-list");
+        
         setUserForm({
           name: "",
           email: "",
           rollno: "",
         });
+        navigate("/student-list");
       });
   };
 
