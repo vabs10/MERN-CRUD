@@ -11,9 +11,9 @@ function App() {
     <div className="App">
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
         <div className="container">
-          {/* <Link to={"/create-student"} className="nav-link"> */}
+          <Link to={"/create-student"} className="nav-link">
             React MERN Stack App
-          {/* </Link> */}
+          </Link>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
               <li className="nav-item">
