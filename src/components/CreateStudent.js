@@ -21,7 +21,7 @@ function CreateStudent() {
   const onSubmit = (e) => {
     e.preventDefault();
     axios
-      .post("https://mern-crud-vabs10.netlify.app/create-student", userForm)
+      .post("http://localhost:4000/students/create-student", userForm)
       .then((res) => {
         console.log(res.data);
         navigate("/student-list");
